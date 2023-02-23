@@ -11,12 +11,12 @@ namespace PictureBox
         {
 
         }
-
+        //si clico el botó 1 la imatge és visible
         private void button1_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible= true;
         }
-
+        //si clico el botó 2 la imatge és invisible
         private void button2_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
